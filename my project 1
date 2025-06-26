@@ -1,0 +1,28 @@
+task 1
+
+a= float(input("Enter the first number :" ))
+b=float(input("Enter the secound number  :"))
+
+addition =a+b
+subtraction = a-b
+multiplication =a*b
+division =a/b
+
+if b !=0  :
+    division=a/b
+else :
+    print ("indefine")
+
+
+print(addition)
+print(subtraction)
+print(multiplication)
+print(division)
+
+task 2 
+
+v=input("Enter your first name:")
+m=input("Enter your last name:")
+
+addition ="Hello,{}! welcome to the python program".format(v+ m)
+print(addition)
